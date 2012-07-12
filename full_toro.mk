@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/toro/old_proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \
     device/samsung/toro/old_proprietary/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     device/samsung/toro/old_proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    device/samsung/toro/old_proprietary/su:system/xbin/su \
     device/samsung/toro/old_proprietary/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so
 
 # Inherit from those products. Most specific first.
